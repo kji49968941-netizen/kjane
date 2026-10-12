@@ -2,61 +2,28 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <style type="text/css">
-            ol li {list-style-type: lower-alpha;}
-            ol {list-style-position: inside;}
-            ul {list-style-position: outside;}
-            li.kor {list-style-type: square;}
-            li.usa {list-style-image: url(.gif);}
-            #book {width:90%; border-spacing: 8px;} 
-            p {background-color: aqua;}
-            p:hover {background-color: yellow; transition: background-color 5s ease-in-out;} 
-            ul {background-color: brown;}
-            li {background-color: blue;}
-            td {background-color: greenyellow;}
-        </style>
     </head>
     <body>
-        <p>순서가 없는 목록</p>
+        <h2>과목별 참고도서 목록</h2>
         <ul>
-            <li>첫번째</li>
-            <li>두번째</li>
-            <li>세번째</li>
+            <li>IT 기술의 이해</li>
+            <ol>
+                <li>컴퓨터와 IT기술의 이해</li>
+                <li>Understanding Computers 115th Ed.</li>
+                <li>Discovering Computers</li>
+            </ol>
+            <li>웹프로그래밍</li>
+            <ol>
+                <li>HTML5 웹프로그래밍 입문</li>
+                <li>소셜미디어 시대의 인터넷 이해</li>
+                <li> What Is HTML5?</li>
+            </ol>
         </ul>
-
-        <p>순서가 있는 목록</p>
-        <ol>
-            <li>첫번째</li>
-            <li>두번째</li>
-            <li>세번째</li>
-        </ol>
-
-        <table border="1" id="book">
-            <tfoot>
-                <tr>
-                <td>합계</td>
-                <td colspan="3">2권</td>
-            </tr>
-            </tfoot>
-            <tr>
-                <td rowspan="2">웹프로그래밍</td>
-                <td>HTML5 웹 프로그래밍 입문</td>
-                <td>임순범, 박희민</td>
-                <td>생능</td>
-            </tr>
-            <tr>
-                <td>소셜미디어 시대의 인터넷 활용</td>
-                <td>최윤철, 임순범</td>
-                <td>생능</td>
-            </tr>
-            <thead>
-                <tr>
-                <th>과목</th>
-                <th>책제목</th>
-                <th>저자</th>
-                <th>출판사</th>
-            </tr>
-            </thead>
-        </table>
+        <h2>지정도서</h2>
+        <dl>
+            <dt>지정도서 서비스란?</dt>
+            <dd>수업에 필요한 주교재 및 참고문헌 등의 필수도서를 도서관 1층 대출..
+                별도로 비치하여 관리하는 제도</dd>
+        </dl>
     </body>
 </html>
