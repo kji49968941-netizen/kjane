@@ -2,28 +2,213 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <style>
+            #achievements {
+                width: 90%;
+                border-spacing: 10px;
+            }
+            #read_books {
+                width: 90%;
+                border-spacing: 10px;
+            }
+            #general_education {
+                width: 90%;
+                border-spacing: 10px;
+            }
+            .blue {
+                color: blue;
+            }
+            .red {
+                color: red;
+            }
+        </style>
     </head>
     <body>
-        <h2>과목별 참고도서 목록</h2>
-        <ul>
-            <li>IT 기술의 이해</li>
-            <ol>
-                <li>컴퓨터와 IT기술의 이해</li>
-                <li>Understanding Computers 115th Ed.</li>
-                <li>Discovering Computers</li>
-            </ol>
-            <li>웹프로그래밍</li>
-            <ol>
-                <li>HTML5 웹프로그래밍 입문</li>
-                <li>소셜미디어 시대의 인터넷 이해</li>
-                <li> What Is HTML5?</li>
-            </ol>
-        </ul>
-        <a href="doc02.html"><h2>지정도서</h2></a>
-        <dl>
-            <dt>지정도서 서비스란?</dt>
-            <dd>수업에 필요한 주교재 및 참고문헌 등의 필수도서를 도서관 1층 대출..
-                별도로 비치하여 관리하는 제도</dd>
-        </dl>
+        <header>
+            <h1 id="F-01">kjane</h1>
+            <p>소속: 상명대학교 소프트웨어학과 1학년</p>
+            <p>
+                저는 평소에 센서융합에 관심이 많습니다 단순히 센서만 좋아하는것이 아니라 항공과 관련된 센서융합에 관심이 많아 무인항공기 드론 등에 많은 관심을 가지고 있습니다.
+            </p>
+            <p id="F-02"><a href="https://github.com/kji49968941-netizen/kjane.git" target="_blank">kjane의 GitHub</a></p>
+        </header>
+
+        <section>
+            <h2 id="F-03">실적</h2>
+            <table border="1" id="achievements">
+                <thead>
+                    <tr>
+                        <th>시기</th>
+                        <th>분류</th>
+                        <th>내용</th>
+                        <th>본인 역할</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>2026.09.20</td>
+                    <td>자격</td>
+                    <td>무인동력비행장치 4종(무인멀티콥터) 취득</td>
+                    <td>팀장</td>
+                </tr>
+                <tr>
+                    <td>2026.08.18-2026.08.31</td>
+                    <td>교육</td>
+                    <td>AI Agent 교육 특강</td>
+                    <td>팀원</td>
+                </tr>
+                <tr>
+                    <td>2025.09.27</td>
+                    <td>대회</td>
+                    <td>부천로봇대회 4족 로봇 조종 분야 은상 수상</td>
+                    <td>팀원</td>
+                </tr>
+                <tr>
+                    <td>2025.09.27</td>
+                    <td>대회</td>
+                    <td>부천로봇대회 플루토 스프린트 분야 장려상 수상</td>
+                    <td>팀장</td>
+                </tr>
+                <tr>
+                    <td>2024.07.17</td>
+                    <td>활동</td>
+                    <td>고등학교 학생 강연회 발표<br> 
+                        주제: 오토파일럿, 관성항법시스템(INS)의 적용
+                    </td>
+                    <td>팀장</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="A-01">읽은 도서</h2>
+            <table border="1" id="read_books">
+                <thead>
+                    <tr>
+                        <th>도서명</th>
+                        <th>저자</th>
+                        <th>출판사</th>
+                        <th>표지</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>AI 개발자가 되고 싶으세요?</td>
+                    <td>배휘동, 홍석용, 오현우, 정금호, 최남규, 김성완</td>
+                    <td>로드북</td>
+                    <td><img src="images/AI 개발자가 되고 싶으세요.png" alt="AI 개발자가 되고 싶으세요" width="100"></td>
+                </tr>
+                    <td>드론 바이블</td>
+                    <td>강왕구, 채인택, 계동혁</td>
+                    <td>플래닛미디어</td>
+                    <td><img src="images/드론 바이블.png" alt="드론 바이블" width="100"></td>
+                <tr>
+                    <td>실용주의 프로그래머</td>
+                    <td>데이비드 토머스, 앤드류 헌트</td>
+                    <td>인사이트</td>
+                    <td><img src="images/실용주의 프로그래머.png" alt="실용주의 프로그래머" width="100"></td>
+                </tr>
+                <tr>
+                    <td>혼자 공부하는 머신러닝+딥러닝</td>
+                    <td>박해선</td>
+                    <td>한빛미디어</td>
+                    <td><img src="images/혼자 공부하는 머신러닝+딥러닝.png" alt="혼자 공부하는 머신러닝+딥러닝" width="100"></td>
+                </tr>
+                
+            </table>
+        </section>
+
+        <section>
+            <h2 id="F-04">수강 과목</h2>
+            <ul>
+                <li>창의적디자인상상 - 교양</li>
+                <li>이산수학 - 2전공</li>
+                <li>모빌리티비전시스템 - 1전공</li>
+                <li>기계학습 - 1전공</li>
+                <li><a href="#F-05">웹프로그래밍및AI에이전트활용 - 2전공</a></li>
+                <li>스마트모빌리티 - 1전공</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="A-02">필수 이수 교양</h2>
+            <table border="1" id="general_education">
+                <thead>
+                    <tr>
+                        <th>종류</th>
+                        <th>이수 기준</th>
+                        <th>영역</th>
+                        <th>강의 명</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td rowspan="5">핵심</td>
+                    <td rowspan="5">5개 영역 중 2개 이수</td>
+                    <td>다양성존중역량</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>윤리실천역량</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>전문지식탐구역량</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: yellow;">
+                    <td>창의적문제해결역량</td>
+                    <td>창의적디자인상상</td>
+                </tr>
+                <tr style="background-color: yellow;">
+                    <td>융복합역량</td>
+                    <td>영화속의건축여행</td>
+                </tr>
+                <tr>
+                    <td rowspan="5">균형</td>
+                    <td rowspan="5">5개 영역 중 3개 이수<br>단 소속영역은 미인정</td>
+                    <td>인문</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: yellow;">
+                    <td>사회</td>
+                    <td>국제통상법과외교</td>
+                </tr>
+                <tr>
+                    <td>자연,공학</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background-color: yellow;">
+                    <td>예술</td>
+                    <td>우리없는세계,포스트휴먼되기</td>
+                </tr>
+                <tr style="background-color: yellow;">
+                    <td>브릿지</td>
+                    <td>인공지능시대의컬처테크</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="F-05">웹프로그래밍및AI에이전트활용 주차별 링크</h2>
+            <ul>
+                <li class="blue"><a href="doc01.html">1주차</a></li>
+                <li class="blue"><a href="doc02.html">2주차</a></li>
+                <li class="blue"><a href="doc03.html">3주차</a></li>
+                <li class="blue"><a href="doc04.html">4주차</a></li>
+                <li class="blue"><a href="doc05.html">5주차</a></li>
+                <li class="blue"><a href="doc06.html">6주차</a></li>
+                <li class="blue"><a href="doc07.html">7주차</a></li>
+                <li class="red">8주차(예정)</li>
+                <li class="red">9주차(예정)</li>
+                <li class="red">10주차(예정)</li>
+                <li class="red">11주차(예정)</li>
+                <li class="red">12주차(예정)</li>
+                <li class="red">13주차(예정)</li>
+                <li class="red">14주차(예정)</li>
+                <li class="red">15주차(예정)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p id="F-06">최종 수정일: 2026년 10월 13일</p>
+        </footer>
     </body>
 </html>
