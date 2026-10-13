@@ -8,9 +8,9 @@
 
 | 활동명 | kjane |
 
-| 배포 URL | https:// |
+| 배포 URL | [https://](https://kjane.smu.ai.kr/) |
 
-| 작성일 | 2026- 10 -   |
+| 작성일 | 2026- 10 - 13  |
 
 
 ---
@@ -40,7 +40,7 @@
 
 | Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사 + 인라인 style 사용 여부 확인 + 창 크기 변경 확인 | Pass | [캡처](images/CSS검사기.png) |
 
-| Q-DEPLOY | 배포 URL에서 모든 링크 클릭, 모든 이미지 표시 확인 | ( ) | ( ) |
+| Q-DEPLOY | 배포 URL에서 모든 링크 클릭, 모든 이미지 표시 확인 | Pass | [캡처](images/git.png) [캡처](images/1주차.png) [캡처](images/2주차.png) [캡처](images/3주차.png) [캡처](images/4주차.png) [캡처](images/5주차.png) [캡처](images/6주차.png) [캡처](images/7주차.png) |
 
 
 ---
@@ -50,7 +50,7 @@
 
 
 
-**완성도 = 충족(Pass)한 요구사항 수 ÷ 평가 대상 요구사항 수(9) = ( ) / 9 = ( )%**
+**완성도 = 충족(Pass)한 요구사항 수 ÷ 평가 대상 요구사항 수(9) = 9 / 9 = 100%**
 
 
 
