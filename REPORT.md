@@ -36,9 +36,9 @@
 
 | F-06 | ① 하단(footer)에 "최종 수정일: YYYY-MM-DD" 형식으로 표시 ② 표시된 날짜가 배포 저장소의 마지막 커밋 날짜와 같음 | Pass | [캡처](images/F-06.png) |
 
-| Q-HTML | W3C HTML 검사기(https://validator.w3.org/)로 배포 URL 검사 | ( ) | ( ) |
+| Q-HTML | W3C HTML 검사기(https://validator.w3.org/)로 배포 URL 검사 | Pass | [캡처](images/HTML검사기.png) |
 
-| Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사 + 인라인 style 사용 여부 확인 + 창 크기 변경 확인 | ( ) | ( ) |
+| Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사 + 인라인 style 사용 여부 확인 + 창 크기 변경 확인 | Pass | [캡처](images/CSS검사기.png) |
 
 | Q-DEPLOY | 배포 URL에서 모든 링크 클릭, 모든 이미지 표시 확인 | ( ) | ( ) |
 
